@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .small-box {
+            width: 150px;
+            height: 150px;
+        }
+
+        .div1, .div2 {
+            width: 150px;
+            height: 150px;
+        }
+
+        .div1 {
+            background-color: #fd5252;
+            transition: background-color 2s, transform 3s;
+        }
+
+        .div2 {
+            background-color: #33d4e3;
+            transition: all 5s;
+        }
+
+        .div1:hover {
+            transform: translateX(100px);
+        }
+
+        .div2:hover {
+            transform: translateY(100px);
+        }
+
+        .div1:active {
+            background-color: green;
+        }
+
+        .div2:active {
+            transform: scale(150%);
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="div1">
+    向右移动
+    <br>
+    点我变色
+</div>
+<div class="div2">
+    向下移动
+    <br>
+    点我变大
+</div>
+</body>
+</html>

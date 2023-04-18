@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ggg {
+            width: 500px;
+            height: 500px;
+            background-color: #8fc4ff;
+
+            /* 必备条件 */
+            display: flex;
+            /* 方向 */
+            flex-direction: column;
+            /* 换行 */
+            flex-wrap: wrap;
+            /* 间隙 */
+            column-gap: 10px;
+            row-gap: 10px;
+
+            /* 主轴对齐方式  */
+            justify-content: center;
+            /* 交叉轴对齐方式 */
+            align-items: center;
+        }
+
+        .c1, .c2, .c3 {
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="ggg">
+    <div class="c1" style="background-color: rgba(253,82,82)">
+        1
+    </div>
+    <div class="c2" style="background-color: #0095ff">
+        2
+    </div>
+    <div class="c3" style="background-color: #469f00">
+        3
+    </div>
+<!--    <div class="c1" style="background-color: rgba(253,82,82)">-->
+<!--        4-->
+<!--    </div>-->
+<!--    <div class="c2" style="background-color: #0095ff">-->
+<!--        5-->
+<!--    </div>-->
+<!--    <div class="c3" style="background-color: #469f00">-->
+<!--        6-->
+<!--    </div>-->
+</div>
+</body>
+</html>
