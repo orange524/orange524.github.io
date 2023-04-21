@@ -4,20 +4,57 @@
 }
 
 .beijing01{
-    height: 100%;
-    width: 100%;
+    height: 140px;
+    width: 1920px;
+    position: relative;
 }
 
 .fangxiaogou{
     height: 100%;
     width: 100%;
+    background-color: red;
+}
+
+.fangxiaogou:hover .fangxiaogou-image{
+    opacity: 1;
+}
+
+.fangxiaogou:hover .fangxiaogou-image-2{
+    opacity: 0;
+}
+
+.fangxiaogou-image{
+    height: 100%;
+    width: 100%;
+    transition:  500ms;
+}
+
+.fangxiaogou-image-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition:  500ms;
 }
 
 .xiaogou{
-    height: 20%;
-    width: 20%;
+    position: absolute;
+    left: 46%;
+    top: 9%;
+    height: 100%;
+}
+
+.xiaogou-image{
+    width: 100%;
+    height: 80%;
 }
 
 .xuexi{
     margin: 20px;
+}
+
+.xuexi > a {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 10px;
 }
